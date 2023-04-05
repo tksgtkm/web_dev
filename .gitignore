@@ -1,3 +1,2 @@
-intro_app/node_modules/
-intro_app/dist/assets/
-star_app/node_modules/
+reactApp/react-dev/node_modules/
+reactApp/react-dev/dist/
