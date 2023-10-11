@@ -6,7 +6,11 @@ import reportWebVitals from './reportWebVitals';
 import App from './App';
 import Hello from './components/Hello'
 import Name from './components/Name'
-import Message from './components/Message';
+import Message from './components/Message'
+import ContainerSample from './components/ContainerSample'
+import ContextSample from './components/ContextSample'
+import UseStateSample from './components/UseStateSample'
+import UseResucerSample from './components/UseReducerSample'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -21,7 +25,11 @@ root.render(
   // <App />
   // <Hello />
   // <Name />
-  <Message />
+  // <Message />
+  // <ContainerSample />
+  // <ContextSample />
+  // <UseStateSample initialValue={0}/>
+  <UseResucerSample initialValue={0}/>
 );
 
 // If you want to start measuring performance in your app, pass a function
